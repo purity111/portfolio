@@ -86,7 +86,7 @@ const Project: React.FC<ProjectProps> = ({ data, index }) => {
                 if (SoundActive) {
                   playClick();
                 }
-                logEvent(getAnalytics(), `${data.name} Live`);
+                // logEvent(getAnalytics(), `${data.name} Live`);
               }}
               onHoverStart={() => {
                 if (SoundActive) {
@@ -111,7 +111,7 @@ const Project: React.FC<ProjectProps> = ({ data, index }) => {
                 if (SoundActive) {
                   playClick();
                 }
-                logEvent(getAnalytics(), `${data.name} Code`);
+                // logEvent(getAnalytics(), `${data.name} Code`);
               }}
               onHoverStart={() => {
                 if (SoundActive) {

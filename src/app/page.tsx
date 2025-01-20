@@ -10,10 +10,9 @@ import { getAnalytics, logEvent } from "firebase/analytics";
 import { useEffect } from "react";
 
 export default function Home() {
-  // useEffect(() => {
-  //   analytics;
-  //   logEvent(getAnalytics(), "Home Page");
-  // }, []);
+  useEffect(() => {
+    console.log("Home Page viewed");
+  }, []);
   return (
     <>
       <Hero />

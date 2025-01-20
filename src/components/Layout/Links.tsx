@@ -70,7 +70,7 @@ const Links: React.FC<LinksProps> = () => {
           if (SoundActive) {
             playClick();
           }
-          logEvent(getAnalytics(), `Email Side Links`);
+          // logEvent(getAnalytics(), `Email Side Links`);
         }}
       >
         <Icon className={`${styles.links_link_icon}`} icon={"mi:email"} />
@@ -100,7 +100,7 @@ const Links: React.FC<LinksProps> = () => {
           if (SoundActive) {
             playClick();
           }
-          logEvent(getAnalytics(), `Github Side Links`);
+          // logEvent(getAnalytics(), `Github Side Links`);
         }}
       >
         <Icon className={`${styles.links_link_icon}`} icon={"mdi:github"} />

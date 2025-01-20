@@ -35,7 +35,7 @@ const Footer: React.FC<FooterProps> = () => {
             if (SoundActive) {
               playClick();
             }
-            logEvent(getAnalytics(), `Scroll Footer`);
+            // logEvent(getAnalytics(), `Scroll Footer`);
           }}
           to="hero"
           href="hero"

@@ -213,7 +213,7 @@ const Hero: React.FC<HeroProps> = () => {
               if (SoundActive) {
                 playClick();
               }
-              logEvent(getAnalytics(), `Resume hero`);
+              // logEvent(getAnalytics(), `Resume hero`);
             }}
           >
             {heroData.btnText}
@@ -271,7 +271,7 @@ const Hero: React.FC<HeroProps> = () => {
             if (SoundActive) {
               playClick();
             }
-            logEvent(getAnalytics(), `Scroll Hero`);
+            // logEvent(getAnalytics(), `Scroll Hero`);
           }}
           to="about"
           smooth={true}

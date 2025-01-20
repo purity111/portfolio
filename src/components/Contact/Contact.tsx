@@ -79,9 +79,9 @@ const Contact: React.FC<ContactProps> = () => {
             key={i}
             variants={linkVariants}
             whileHover={{ color: "var(--secondary)" }}
-            onClick={() => {
-              logEvent(getAnalytics(), `${link.label} Contact`);
-            }}
+            // onClick={() => {
+            //   logEvent(getAnalytics(), `${link.label} Contact`);
+            // }}
           >
             {link.label}
           </motion.a>

@@ -73,7 +73,7 @@ const Right: React.FC<RightProps> = ({ mobile }) => {
                 playClick();
               }
               setNavState((prev) => ({ ...prev, open: false }));
-              logEvent(getAnalytics(), `About Navbar`);
+              // logEvent(getAnalytics(), `About Navbar`);
             }}
             to="about"
             href="about"
@@ -94,7 +94,7 @@ const Right: React.FC<RightProps> = ({ mobile }) => {
                 playClick();
               }
               setNavState((prev) => ({ ...prev, open: false }));
-              logEvent(getAnalytics(), `Skills Navbar`);
+              // logEvent(getAnalytics(), `Skills Navbar`);
             }}
             to="skills"
             smooth={true}
@@ -115,7 +115,7 @@ const Right: React.FC<RightProps> = ({ mobile }) => {
                 playClick();
               }
               setNavState((prev) => ({ ...prev, open: false }));
-              logEvent(getAnalytics(), `Projects Navbar`);
+              // logEvent(getAnalytics(), `Projects Navbar`);
             }}
             to="projects"
             href="projects"
@@ -136,7 +136,7 @@ const Right: React.FC<RightProps> = ({ mobile }) => {
                 playClick();
               }
               setNavState((prev) => ({ ...prev, open: false }));
-              logEvent(getAnalytics(), `Contact Navbar`);
+              // logEvent(getAnalytics(), `Contact Navbar`);
             }}
             to="contact"
             href="contact"
@@ -157,7 +157,7 @@ const Right: React.FC<RightProps> = ({ mobile }) => {
                 playClick();
               }
               setNavState((prev) => ({ ...prev, open: false }));
-              logEvent(getAnalytics(), `Resume Navbar`);
+              // logEvent(getAnalytics(), `Resume Navbar`);
             }}
             href={"/Docs/resume.pdf"}
             target="_blank"
@@ -185,7 +185,7 @@ const Right: React.FC<RightProps> = ({ mobile }) => {
                 if (SoundActive) {
                   playClick();
                 }
-                logEvent(getAnalytics(), `Github Navbar Links`);
+                // logEvent(getAnalytics(), `Github Navbar Links`);
               }}
             >
               <Icon icon={"mdi:github"} />
@@ -199,7 +199,7 @@ const Right: React.FC<RightProps> = ({ mobile }) => {
                 if (SoundActive) {
                   playClick();
                 }
-                logEvent(getAnalytics(), `LinkedIn Navbar Links`);
+                // logEvent(getAnalytics(), `LinkedIn Navbar Links`);
               }}
             >
               <Icon icon={"mdi:linkedin"} />
@@ -213,7 +213,7 @@ const Right: React.FC<RightProps> = ({ mobile }) => {
                 if (SoundActive) {
                   playClick();
                 }
-                logEvent(getAnalytics(), `Email Navbar Links`);
+                // logEvent(getAnalytics(), `Email Navbar Links`);
               }}
             >
               <Icon icon={"mi:email"} />
