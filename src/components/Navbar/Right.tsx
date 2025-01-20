@@ -159,7 +159,7 @@ const Right: React.FC<RightProps> = ({ mobile }) => {
               setNavState((prev) => ({ ...prev, open: false }));
               // logEvent(getAnalytics(), `Resume Navbar`);
             }}
-            href={"/Docs/resume.pdf"}
+            href={"/Docs/portfolio.pdf"}
             target="_blank"
           >
             Resume

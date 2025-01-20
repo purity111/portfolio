@@ -201,7 +201,7 @@ const Hero: React.FC<HeroProps> = () => {
             </motion.span>
           </div>
           <motion.a
-            href="Docs/resume.pdf"
+            href="Docs/portfolio.pdf"
             target="_blank"
             variants={textChildrenVariants}
             whileHover={{

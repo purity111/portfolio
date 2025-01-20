@@ -123,7 +123,7 @@ export const contactData = {
     // },
     {
       label: "Resume",
-      url: "/Docs/resume.pdf",
+      url: "/Docs/portfolio.pdf",
     },
   ],
 };
