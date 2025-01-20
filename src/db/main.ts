@@ -1,10 +1,7 @@
 import kLearnImg from "../../public/images/kLearn.png";
 import talentImg from "../../public/images/hrms1.png";
 import myImage from "../../public/images/mimori.jpg";
-import mutahItImg from "../../public/images/mutah-it.png";
-import randQuoteImg from "../../public/images/randquote.png";
 import corporateImg from "../../public/images/corporate1.png";
-import theDojoImg from "../../public/images/the-dojo.png";
 import medicalImg from "../../public/images/dashboard.png";
 import amsImg from "../../public/images/ams.png";
 

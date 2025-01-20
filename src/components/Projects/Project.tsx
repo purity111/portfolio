@@ -1,6 +1,6 @@
 "use client";
 import { soundState } from "@/atoms/SoundAtom";
-import { analytics } from "@/firebase/config";
+// import { analytics } from "@/firebase/config";
 import { Icon } from "@iconify/react";
 // import { getAnalytics, logEvent } from "firebase/analytics";
 import { motion } from "framer-motion";

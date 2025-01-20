@@ -5,7 +5,7 @@ import Hero from "@/components/Hero/Hero";
 import Projects from "@/components/Projects/Projects";
 import Skills from "@/components/Skills/Skills";
 import University from "@/components/University/University";
-import { analytics } from "@/firebase/config";
+// import { analytics } from "@/firebase/config";
 // import { getAnalytics, logEvent } from "firebase/analytics";
 import { useEffect } from "react";
 
