@@ -1,4 +1,4 @@
-import kLearnImg from "../../public/images/kLearn.png";
+import kLearnImg from "../../public/images/klearn.png";
 import talentImg from "../../public/images/hrms1.png";
 import myImage from "../../public/images/mimori.jpg";
 import corporateImg from "../../public/images/corporate1.png";
