@@ -2,7 +2,7 @@
 import { soundState } from "@/atoms/SoundAtom";
 import { analytics } from "@/firebase/config";
 import { Icon } from "@iconify/react";
-import { getAnalytics, logEvent } from "firebase/analytics";
+// import { getAnalytics, logEvent } from "firebase/analytics";
 import { motion } from "framer-motion";
 import Image, { StaticImageData } from "next/image";
 import React from "react";

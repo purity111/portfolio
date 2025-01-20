@@ -2,7 +2,7 @@
 import { navState } from "@/atoms/NavAtom";
 import { soundState } from "@/atoms/SoundAtom";
 import { Icon } from "@iconify/react";
-import { getAnalytics, logEvent } from "firebase/analytics";
+// import { getAnalytics, logEvent } from "firebase/analytics";
 import { Variants, motion } from "framer-motion";
 import React, { useEffect } from "react";
 import { Link } from "react-scroll";

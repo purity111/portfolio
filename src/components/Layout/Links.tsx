@@ -1,7 +1,7 @@
 "use client";
 import { soundState } from "@/atoms/SoundAtom";
 import { Icon } from "@iconify/react";
-import { getAnalytics, logEvent } from "firebase/analytics";
+// import { getAnalytics, logEvent } from "firebase/analytics";
 import { motion } from "framer-motion";
 import React from "react";
 import { useRecoilValue } from "recoil";

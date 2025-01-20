@@ -2,7 +2,7 @@
 import { soundState } from "@/atoms/SoundAtom";
 import { heroData } from "@/db/main";
 import { Icon } from "@iconify/react";
-import { getAnalytics, logEvent } from "firebase/analytics";
+// import { getAnalytics, logEvent } from "firebase/analytics";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import React from "react";

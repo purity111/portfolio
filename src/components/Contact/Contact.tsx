@@ -1,6 +1,6 @@
 "use client";
 import { contactData } from "@/db/main";
-import { getAnalytics, logEvent } from "firebase/analytics";
+// import { getAnalytics, logEvent } from "firebase/analytics";
 import { Variants, motion } from "framer-motion";
 import React from "react";
 import styles from "../../styles/components/Contact.module.scss";
