@@ -12,6 +12,9 @@ I appreciate open source principles, but it's disheartening when someone copies 
 
 Yes, you can fork this repo. Please give me proper credit by linking back to [m7mad.dev](https://m7mad.dev). Thanks! -->
 
+## Used Skills
+Next.js Firebase, Styled CSS
+
 
 ## 🛠 Installation
 1. Install dependencies
