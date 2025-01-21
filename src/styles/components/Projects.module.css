@@ -1,0 +1,193 @@
+.projects {
+  position: relative;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  padding-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 7rem;
+}
+.projects_title {
+  font-size: 7rem;
+  font-weight: var(--light);
+  z-index: 2;
+}
+.projects_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10rem;
+  padding: 0 3rem;
+}
+.projects_container_project {
+  position: relative;
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: start;
+  gap: 4rem;
+}
+.projects_container_project_left {
+  position: relative;
+  z-index: 5;
+  padding-top: 1rem;
+  width: 50%;
+}
+.projects_container_project_left_imgContainer {
+  width: 100%;
+  border: 0.4rem solid var(--secondary);
+  box-shadow: 0px 0px 20px 1px var(--secondary);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.projects_container_project_left_imgContainer_image {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  vertical-align: bottom;
+}
+.projects_container_project_right {
+  position: relative;
+  z-index: 5;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.projects_container_project_right_name {
+  font-size: 5rem;
+  font-weight: var(--light);
+}
+.projects_container_project_right_techContainer {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+.projects_container_project_right_techContainer_tech {
+  font-size: 2.2rem;
+  color: var(--secondary);
+  font-weight: var(--bold);
+}
+.projects_container_project_right_techContainer_tech_made {
+  color: var(--tertiary-dark);
+  font-size: 2.7rem;
+}
+.projects_container_project_right_description {
+  font-size: 2.5rem;
+  color: var(--tertiary);
+  font-weight: var(--light);
+}
+.projects_container_project_right_buttons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+.projects_container_project_right_buttons_btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 2px solid var(--secondary);
+  padding: 0.5rem 1rem;
+  font-size: 2.8rem;
+  color: var(--secondary);
+  font-weight: var(--medium);
+}
+.projects_container_project_circle {
+  position: absolute;
+  width: 35rem;
+  height: 25rem;
+  border-radius: 50%;
+  filter: blur(10rem);
+  z-index: 1;
+}
+.projects_container_project_circle_up {
+  background: var(--secondary);
+  top: -15%;
+  right: -25%;
+  filter: blur(15rem);
+}
+.projects_container_project_circle_down {
+  width: 45rem;
+  height: 35rem;
+  background: var(--primary-light);
+  bottom: -15%;
+  left: -12%;
+  filter: blur(8rem);
+}
+@media screen and (max-width: 800px) {
+  .projects_container {
+    gap: 15rem;
+    padding: 0;
+  }
+  .projects_container_project {
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .projects_container_project_left {
+    width: 100%;
+    max-width: 70rem;
+  }
+  .projects_container_project_right {
+    width: 100%;
+    max-width: 70rem;
+    justify-content: center;
+  }
+  .projects_container_project_right_name {
+    font-size: 4rem;
+  }
+  .projects_container_project_right_techContainer {
+    align-items: center;
+    justify-content: center;
+  }
+  .projects_container_project_right_techContainer_tech {
+    font-size: 2rem;
+  }
+  .projects_container_project_right_techContainer_tech_made {
+    font-size: 2.5rem;
+  }
+  .projects_container_project_right_description {
+    font-size: 2.3rem;
+  }
+  .projects_container_project_right_buttons {
+    justify-content: center;
+    gap: 4rem;
+  }
+  .projects_container_project_right_buttons_btn {
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 2.5rem;
+  }
+  .projects_container_project_right_buttons_btn svg {
+    width: 100%;
+    height: 100%;
+  }
+  .projects_container_project_circle {
+    width: 25rem;
+    height: 15rem;
+  }
+  .projects_container_project_circle_up {
+    top: -10%;
+    right: -20%;
+  }
+  .projects_container_project_circle_down {
+    width: 45rem;
+    height: 35rem;
+    top: 5%;
+    left: -50%;
+  }
+}/*# sourceMappingURL=Projects.module.css.map */

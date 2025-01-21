@@ -178,7 +178,7 @@ const Right: React.FC<RightProps> = ({ mobile }) => {
           <div className={`${styles.navbar_right_links_container}`}>
             <a
               className={`${styles.navbar_right_links_container_link}`}
-              href="https://github.com/MuhammadJaafer"
+              href="https://github.com/MimoriOkamoto"
               target="_blank"
               aria-label="github"
               onClick={() => {
@@ -190,7 +190,7 @@ const Right: React.FC<RightProps> = ({ mobile }) => {
             >
               <Icon icon={"mdi:github"} />
             </a>
-            <a
+            {/* <a
               className={`${styles.navbar_right_links_container_link}`}
               href="https://www.linkedin.com/in/muhammad-jaafar-a099801a9/"
               target="_blank"
@@ -199,11 +199,10 @@ const Right: React.FC<RightProps> = ({ mobile }) => {
                 if (SoundActive) {
                   playClick();
                 }
-                // logEvent(getAnalytics(), `LinkedIn Navbar Links`);
               }}
             >
               <Icon icon={"mdi:linkedin"} />
-            </a>
+            </a> */}
             <a
               className={`${styles.navbar_right_links_container_link}`}
               href="mailto:mimoriokamoto@gmail.com"

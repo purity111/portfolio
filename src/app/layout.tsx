@@ -17,7 +17,8 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <meta name="description" content="Portfolio Website" />
-        <title>Mimori Okamoto</title>
+        <title>Who is Expert, Senior?</title>
+        <link rel="icon" href="/icon.ico" />
       </head>
       <body className={quicksand.className}>
         <main className={styles.layout}>

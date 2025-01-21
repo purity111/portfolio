@@ -7,6 +7,9 @@ import { useRecoilState, useRecoilValue } from "recoil";
 import useSound from "use-sound";
 import styles from "../../styles/components/Navbar.module.scss";
 import Right from "./Right";
+import Image from "next/image";
+import logo from "../../../public/images/logo.png";
+
 const animationDuration = 1.5;
 const circleVariants = {
   start: {
@@ -127,13 +130,14 @@ const Navbar: React.FC<NavbarProps> = () => {
           }}
         >
           <div className={`${styles.navbar_left}`}>
-            <h1
+            {/* <h1
               className={`${styles.navbar_left_logo} ${
                 navStateValue.open ? styles.navbar_left_logo_active : ""
               }`}
             >
               Mimori Okamoto
-            </h1>
+            </h1> */}
+            <Image src={logo} className={`${styles.navbar_left_logo}`} alt={"Logo"} />
           </div>
           <div
             className={`${styles.navbar_right} ${

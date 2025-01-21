@@ -12,8 +12,10 @@
     &_logo {
       cursor: pointer;
       position: relative;
-      font-weight: var(--light);
-      font-size: 2.5rem;
+      // font-weight: var(--light);
+      // font-size: 2.5rem;
+      height: 6rem;
+      width: auto;
       &::after {
         content: "";
         position: absolute;

@@ -46,6 +46,9 @@ const About: React.FC<AboutProps> = () => {
             <h3 className={`${styles.about_container_card_title}`}>
               {card.title}
             </h3>
+            <h3 className={`${styles.about_container_card_subtitle}`}>
+              {card.subTitle}
+            </h3>
             <p className={`${styles.about_container_card_text}`}>{card.text}</p>
           </motion.div>
         ))}

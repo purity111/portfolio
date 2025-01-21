@@ -19,16 +19,19 @@ export const aboutData = {
   title: "Work Experience",
   cards: [
     {
-      title: "Creative Heroes Inc. (2017.11~2020.3)",
-      text: "Worked as a frontend engineer. This is the first company that my Engineer career has launched.",
+      title: "Creative Heroes Inc.",
+      subTitle: "(2017.11~2020.3) - Japan",
+      text: "Worked as a frontend engineer. This is the first company that my Engineer career has launched. I first used Next.js and Typescript here.",
     },
     {
-      title: "E Solutions Webbers (2020.5~2023.2)",
-      text: "Joined as a frontend engineer first. Then I participated several projects and after all I became a full stack engineer!",
+      title: "E Solutions Webbers",
+      subTitle: "(2020.5~2023.2) - Malaysia",
+      text: "Joined as a frontend engineer first. Then I participated several projects and after all I became a full stack engineer! I have participated in projects using Agile Methodology.",
     },
     {
-      title: "SB Works (2023.3~2024.11)",
-      text: "With 5+ years of experience, I played a responsible role in this company. I was full stack engineer and lead engineer concurrently.",
+      title: "SB Works",
+      subTitle: "(2023.3~2024.11) - Japan",
+      text: "With 5+ years of experience, I played a important role in this company. I was both full stack engineer and lead engineer. Used React.js mainly and touched various technologies and skills",
     },
   ],
 };
@@ -176,7 +179,7 @@ export const ProjectsData = {
       codeUrl: "https://github.com/purity111/Student-MS-React-Native",
     },
     {
-      name: "In-house Talent Management System",
+      name: "e-Talent Management System",
       image: talentImg,
       technologies: [
         "TypeScript",
@@ -187,7 +190,7 @@ export const ProjectsData = {
       description:
         "Bookie is a modern e-commerce platform designed exclusively for book lovers. It offers a diverse collection of books across various genres, creating an immersive online bookstore experience. With its sleek and contemporary design, Bookie provides a visually appealing platform for browsing and discovering captivating titles.",
       demoUrl: "https://www.esolutionswebbers.com/talent-management-software.html",
-      codeUrl: "https://github.com/MuhammadJaafer/bookie",
+      codeUrl: "https://github.com/purity111/HRMS-Nuxt-Laravel",
     },
     {
       name: "Plural Sight Cloud",
