@@ -11,7 +11,7 @@ export const heroData = {
   name: "Mimori Okamoto",
   expertise: ["Frontend Engineer", "Backend Engineer"],
   about:
-    `Am a passionate Software Engineer with 7+ years of experience based in Japan. I have a strong skill in frontend and have participated in numerous speedy, user-friendly and responsive websites. Also I am familiar with backend and mobile application. I'm looking forward to exploring new opportunities to enhance my skills.`,
+    `Am a passionate Software Engineer with 7+ years of experience based in Japan. I have a strong skill in front-end and have participated in numerous speedy, user-friendly, and responsive websites. Also, I am familiar with backend and mobile applications. I'm looking forward to exploring new opportunities to enhance my skills.`,
   btnText: "Get my resume",
 };
 
@@ -21,17 +21,17 @@ export const aboutData = {
     {
       title: "Creative Heroes Inc.",
       subTitle: "(2017.11~2020.3) - Japan",
-      text: "Worked as a frontend engineer. This is the first company that my Engineer career has launched. I first used Next.js and Typescript here.",
+      text: "Worked as a front-end engineer. This is the first company that my Engineering Career has launched. I first used Next.js and Typescript here.",
     },
     {
       title: "E Solutions Webbers",
       subTitle: "(2020.5~2023.2) - Malaysia",
-      text: "Joined as a frontend engineer first. Then I participated several projects and after all I became a full stack engineer! I have participated in projects using Agile Methodology.",
+      text: "Joined as a front-end engineer first. Then I participated in several projects and after all I became a full-stack engineer! I have participated in projects using Agile Methodology.",
     },
     {
       title: "SB Works",
       subTitle: "(2023.3~2024.11) - Japan",
-      text: "With 5+ years of experience, I played a important role in this company. I was both full stack engineer and lead engineer. Used React.js mainly and touched various technologies and skills",
+      text: "With 5+ years of experience, I played an important role in this company. I was both a full-stack engineer and a lead engineer. Used React.js mainly and touched various technologies and skills",
     },
   ],
 };
