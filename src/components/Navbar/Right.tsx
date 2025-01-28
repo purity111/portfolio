@@ -190,9 +190,9 @@ const Right: React.FC<RightProps> = ({ mobile }) => {
             >
               <Icon icon={"mdi:github"} />
             </a>
-            {/* <a
+            <a
               className={`${styles.navbar_right_links_container_link}`}
-              href="https://www.linkedin.com/in/muhammad-jaafar-a099801a9/"
+              href="https://www.linkedin.com/in/mimori-okamoto-215245297/"
               target="_blank"
               aria-label="linkedin"
               onClick={() => {
@@ -202,7 +202,7 @@ const Right: React.FC<RightProps> = ({ mobile }) => {
               }}
             >
               <Icon icon={"mdi:linkedin"} />
-            </a> */}
+            </a>
             <a
               className={`${styles.navbar_right_links_container_link}`}
               href="mailto:mimoriokamoto@gmail.com"

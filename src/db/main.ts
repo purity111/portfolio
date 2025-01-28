@@ -120,10 +120,10 @@ export const contactData = {
       label: "GitHub",
       url: "https://github.com/purity111",
     },
-    // {
-    //   label: "LinkedIn",
-    //   url: "https://www.linkedin.com/in/muhammad-dawahreh/",
-    // },
+    {
+      label: "LinkedIn",
+      url: "https://www.linkedin.com/in/mimori-okamoto-215245297/",
+    },
     {
       label: "Resume",
       url: "/Docs/portfolio.pdf",

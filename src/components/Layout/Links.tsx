@@ -75,21 +75,20 @@ const Links: React.FC<LinksProps> = () => {
       >
         <Icon className={`${styles.links_link_icon}`} icon={"mi:email"} />
       </motion.a>
-      {/* <motion.a
+      <motion.a
         variants={childVariants}
         className={`${styles.links_link}`}
-        href="https://www.linkedin.com/in/muhammad-dawahreh/"
+        href="https://www.linkedin.com/in/mimori-okamoto-215245297/"
         target="_blank"
         aria-label="linkedin"
         onClick={() => {
           if (SoundActive) {
             playClick();
           }
-          logEvent(getAnalytics(), `LinkedIn Side Links`);
         }}
       >
         <Icon className={`${styles.links_link_icon}`} icon={"mdi:linkedin"} />
-      </motion.a> */}
+      </motion.a>
       <motion.a
         variants={childVariants}
         className={`${styles.links_link}`}
