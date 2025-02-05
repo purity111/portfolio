@@ -1,6 +1,6 @@
 import kLearnImg from "../../public/images/klearn.png";
 import talentImg from "../../public/images/hrms1.png";
-import myImage from "../../public/images/mimori.jpg";
+import myImage from "../../public/images/mimori.png";
 import corporateImg from "../../public/images/corporate1.png";
 import medicalImg from "../../public/images/dashboard.png";
 import amsImg from "../../public/images/ams.png";
@@ -10,8 +10,12 @@ export const heroData = {
   hi: "Hello! I am",
   name: "Mimori Okamoto",
   expertise: ["Frontend Engineer", "Backend Engineer"],
-  about:
-    `Am a passionate Software Engineer with 7+ years of experience based in Japan. I have a strong skill in front-end and have participated in numerous speedy, user-friendly, and responsive websites. Also, I am familiar with backend and mobile applications. I'm looking forward to exploring new opportunities to enhance my skills.`,
+  about: [
+    "Dynamic and results-driven Software Engineer with over 7 years of experience specializing in FE and full-stack development.",
+    "Proven expertise in leveraging modern JavaScript frameworks alongside BE technologies including Node.js, Python, ASP.NET, and PHP.",
+    "Strong understanding of software development methodologies, including Agile and DevOps practices, with hands-on experience in CI/CD pipelines, version control (Git), and automated testing frameworks.",
+    "Passionate about code quality and best practices, with a commitment to continuous learning and staying updated with emerging technologies."
+  ].join('\n'),
   btnText: "Get my resume",
 };
 
@@ -57,6 +61,7 @@ export const SkillsData = {
         "Typescript",
         "PHP",
         "Python",
+        "C#",
       ],
     },
     {
@@ -68,6 +73,8 @@ export const SkillsData = {
         "jQuery",
         "React Native",
         "Redux",
+        "jQuery",
+        "Vuex",
         "Material UI",
         "Ant Design",
       ],
@@ -79,8 +86,22 @@ export const SkillsData = {
         "Laravel",
         "Nest.js",
         "Django",
+        "Flask",
+        "CakePHP",
+        "GraphQL",
+        "ASP.NET Core",
+        "Restful API",
+        "FastAPI"
+      ],
+    },
+    {
+      title: "Database",
+      skills: [
+        "MySQL",
+        "MongoDB",
         "Firebase",
-
+        "PostgrSQL",
+        "SQL Server"    
       ],
     },
     {
@@ -90,6 +111,25 @@ export const SkillsData = {
         "BootStrap",
         "Tailwind CSS",
         "Styled-Components",
+      ],
+    },
+    {
+      title: "Other Skills",
+      skills: [
+        "Git",
+        "Agile(Scrum)",
+        "RAG",
+        "GenAI",
+        "ElasticSearch",
+        "Jira",
+        "Trello",
+        "Backlog",
+        "Jest",
+        "WebRTC",
+        "Docker",
+        "AWS",
+        "Kubernetes",
+        "Heroku",
       ],
     }
   ],
