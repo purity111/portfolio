@@ -25,17 +25,17 @@ export const aboutData = {
     {
       title: "Creative Heroes Inc.",
       subTitle: "(2017.11~2020.3) - Japan",
-      text: "Worked as a front-end engineer. This is the first company that my Engineering Career has launched. I first used Next.js and Typescript here.",
+      text: "I began my engineering career as a front-end engineer at my current company, where I had the opportunity to work extensively with Next.js and TypeScript.",
     },
     {
       title: "E Solutions Webbers",
       subTitle: "(2020.5~2023.2) - Malaysia",
-      text: "Joined as a front-end engineer first. Then I participated in several projects and after all I became a full-stack engineer! I have participated in projects using Agile Methodology.",
+      text: "Joined as a front-end engineer at first, and subsequently contributed to several projects, ultimately advancing to the role of full-stack engineer. Throughout this journey, I have actively participated in projects utilizing Agile methodology.",
     },
     {
       title: "SB Works",
       subTitle: "(2023.3~2024.11) - Japan",
-      text: "With 5+ years of experience, I played an important role in this company. I was both a full-stack engineer and a lead engineer. Used React.js mainly and touched various technologies and skills",
+      text: "With over five years of experience, I have played a pivotal role in my company as both a Full-Stack Engineer and Lead Engineer. Core skill were React.js/Node.js, and experienced variety of technologies and skills.",
     },
   ],
 };
