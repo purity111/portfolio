@@ -1,6 +1,6 @@
 import kLearnImg from "../../public/images/klearn.png";
 import talentImg from "../../public/images/hrms1.png";
-import myImage from "../../public/images/1.jpg";
+import myImage from "../../public/images/kit2.jpg";
 import corporateImg from "../../public/images/corporate1.png";
 import medicalImg from "../../public/images/dashboard.png";
 import amsImg from "../../public/images/ams.png";
