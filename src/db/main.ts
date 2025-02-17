@@ -24,18 +24,18 @@ export const aboutData = {
   cards: [
     {
       title: "Creative Heroes Inc.",
-      subTitle: "(2017.11~2020.3) - Japan",
+      subTitle: "2017.11 - 2020.3 | Osaka, Japan",
       text: "I began my engineering career as a front-end engineer at my current company, where I had the opportunity to work extensively with Next.js and TypeScript.",
     },
     {
       title: "E Solutions Webbers",
-      subTitle: "(2020.5~2023.2) - Malaysia",
-      text: "Joined as a front-end engineer at first, and subsequently contributed to several projects, ultimately advancing to the role of full-stack engineer. Throughout this journey, I have actively participated in projects utilizing Agile methodology.",
+      subTitle: "2020.5 - 2023.2 | Malaysia",
+      text: "Joined as a front-end engineer at first, and subsequently contributed to several projects, ultimately advancing to the role of lead engineer. Throughout this journey, I have actively participated in projects utilizing Agile methodology.",
     },
     {
-      title: "SB Works",
-      subTitle: "(2023.3~2024.11) - Japan",
-      text: "With over five years of experience, I have played a pivotal role in my company as both a Full-Stack Engineer and Lead Engineer. Core skill were React.js/Node.js, and experienced variety of technologies and skills.",
+      title: "Think To Share",
+      subTitle: "2023.3 - 2024.11 | Miami, US",
+      text: "With over five years of experience, I have played a pivotal role in my company as a Full-Stack Engineer. Core skill were React.js/Node.js, and experienced variety of technologies and skills.",
     },
   ],
 };
@@ -44,8 +44,8 @@ export const universityData = {
   title: "University",
   cards: [
     {
-      title: "Bachelor of Information Science (2014~2017)",
-      text: "Kyoto Institute of Technology",
+      title: "Bachelor of Information Science",
+      text: "2014 - 2017 | Kyoto Institute of Technology",
     },
   ],
 };
@@ -166,13 +166,13 @@ export const contactData = {
     },
     {
       label: "Resume",
-      url: "/Docs/portfolio.pdf",
+      url: "https://drive.google.com/file/d/18JSbQR9e24Ki-9WWLEPwZGZM23PWlZ9D",
     },
   ],
 };
 
 export const ProjectsData = {
-  title: "Top Projects",
+  title: "Recent Projects",
   Projects: [
     {
       name: "Attendance Management System",

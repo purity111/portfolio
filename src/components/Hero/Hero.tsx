@@ -201,7 +201,7 @@ const Hero: React.FC<HeroProps> = () => {
             </motion.span>
           </div>
           <motion.a
-            href="Docs/portfolio.pdf"
+            href="https://drive.google.com/file/d/18JSbQR9e24Ki-9WWLEPwZGZM23PWlZ9D"
             target="_blank"
             variants={textChildrenVariants}
             whileHover={{
@@ -209,12 +209,7 @@ const Hero: React.FC<HeroProps> = () => {
               transform: "translate(-0.7rem, -0.7rem)",
             }}
             className={`${styles.hero_left_container_btn}`}
-            onClick={() => {
-              if (SoundActive) {
-                playClick();
-              }
-              // logEvent(getAnalytics(), `Resume hero`);
-            }}
+
           >
             {heroData.btnText}
           </motion.a>
